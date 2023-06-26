@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: node-config
+data: 
+  db.string: "mongodb+srv://testuser:testuser@cluster0.xbcejhx.mongodb.net/"
+  db.name: "nagpdb"

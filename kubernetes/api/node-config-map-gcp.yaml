@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: node-config
+data: 
+  db.string: "mongodb://mongo.default.svc.cluster.local"
+  db.name: "nagpdb"
