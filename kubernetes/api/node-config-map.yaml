@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: node-config
 data: 
-  db.string: "mongodb+srv://testuser:testuser@cluster0.xbcejhx.mongodb.net/"
+  db.string: "mongodb+srv://<username>:<password>@cluster0.xbcejhx.mongodb.net/"
   db.name: "nagpdb"
